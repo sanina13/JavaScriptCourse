@@ -48,3 +48,19 @@ x += 10;
 x *= 4;
 x++;
 console.log(x)*/
+
+// Convert String -> Number Number(String)  Number -> String String(Number)
+
+/* type Coercion
+
+console.log('I am ' + 23 + ' years old');// O '+' transforma os valores todos em Strings
+
+console.log('23' - '10' - 3) // O '-', '*', '/' transforma os valores todos em Number
+*/
+
+// 5 falsy values: 0, '', undefined, null, NaN
+
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean('Jonas'));
+console.log(Boolean({}))
