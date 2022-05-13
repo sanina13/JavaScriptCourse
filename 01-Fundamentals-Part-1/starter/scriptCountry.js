@@ -1,4 +1,4 @@
-/*const country = "Portugal";
+const country = "Portugal";
 const continent = "Europe";
 let population = 11000000;
 
@@ -25,4 +25,14 @@ if (population < populationAverageCountry) {
 	console.log(`${country}'s population is ${populationAverageCountry - population} million below average`)
 } else {
 	console.log(`${country}'s population is above average`)
-}*/
+}
+
+const numNeighbours= Number(prompt('How many neighbour countries does your country have?'));
+
+if(numNeighbours === 1){
+	console.log('Only 1 border!')
+}else if(numNeighbours > 1){
+	console.log('More than 1 border')	
+}else{
+	console.log('No borders')	
+}

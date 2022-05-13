@@ -60,7 +60,23 @@ console.log('23' - '10' - 3) // O '-', '*', '/' transforma os valores todos em N
 
 // 5 falsy values: 0, '', undefined, null, NaN
 
-console.log(Boolean(0));
+/*console.log(Boolean(0));
 console.log(Boolean(undefined));
 console.log(Boolean('Jonas'));
-console.log(Boolean({}))
+console.log(Boolean({}))*/
+
+
+// === is better, avoid using the == 
+
+/*const favourite = Number(prompt("what's your favorite number?"));
+console.log(typeof favourite);
+if(favourite === 23){
+  console.log("cool, 23 is an amazing number")
+}else if(favourite === 7){
+  console.log("cool, 7 is an awesome number")
+}else{
+  console.log("Number is not 23 or 7")
+}*/
+
+// != or !==, !== is better to use 
+
