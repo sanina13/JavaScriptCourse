@@ -18,3 +18,19 @@ if (markBmi > johnBmi) {
 } else {
 	console.log(`John's BMI (${Math.round(johnBmi * 10) / 10}) is higher than Mark's (${Math.round(markBmi * 10) / 10})`)
 }*/
+const averageDolphins = (97 + 112 + 101) / 3;
+const averageKoalas = (109 + 95 + 106) / 3;
+
+if(averageDolphins > averageKoalas && averageDolphins >= 100){
+	console.log(`Dolphins wins with ${averageDolphins} points.`);
+}else if(averageKoalas > averageDolphins && averageKoalas >= 100){
+	console.log(`Koalas wins with ${averageKoalas} points.`);
+}else if(averageDolphins > averageKoalas && averageDolphins < 100){
+	console.log('Dolphins Scores under 100 points');
+}else if(averageKoalas > averageDolphins && averageKoalas < 100){
+	console.log('Koalas Scores under 100 points');
+}else if(averageKoalas === averageDolphins && averageKoalas >= 100 && averageDolphins >=100){
+	console.log('Draw')
+}else{
+	console.log('Any team scores over 100 points and the thow teams have the same points');
+}

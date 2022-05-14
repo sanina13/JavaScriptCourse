@@ -80,3 +80,22 @@ if(favourite === 23){
 
 // != or !==, !== is better to use 
 
+// const hasDriversLicense = true;
+// const hasGoodVision = true;
+
+// console.log(hasDriversLicense && hasGoodVision);
+
+// if(hasDriversLicense && hasGoodVision){
+//   console.log('Sarah is able to drive!');
+// }else{
+//   console.log('Someone else should drive...');
+// }
+
+// const isTired = false;
+// console.log(hasDriversLicense && hasGoodVision && isTired);
+
+// if(hasDriversLicense && hasGoodVision && !isTired){
+//   console.log('Sarah is able to drive!');
+// }else{
+//   console.log('Someone else should drive...');
+// }
