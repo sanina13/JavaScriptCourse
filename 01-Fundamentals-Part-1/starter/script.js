@@ -99,3 +99,47 @@ if(favourite === 23){
 // }else{
 //   console.log('Someone else should drive...');
 // }
+
+// const day = "monday";
+
+// switch(day){
+//   case "monday":
+//     console.log("Running outside");
+//     break;
+//   case "tuesday":
+//     console.log("Running inside");
+//     break;
+//   case "wednesday":
+//   case "thursday":
+//     console.log("Running outside for 1 hour");
+//     break;
+//   case "friday":
+//     console.log("Running for 2 hours");
+//     break;
+//   case "saturday":
+//   case "sunday":
+//     console.log("Just rest inside your home");
+//     break;
+//   default:
+//     console.log("Not a valid day");
+// }
+
+// if(day === "monday"){
+//   console.log("Running outside");
+// }else if(day === "tuesday"){
+//   console.log("Running inside");
+// }else if(day === "wednesday" || day === "thursday"){
+//   console.log("Running outside for 1 hour");
+// }else if(day === "friday"){
+//   console.log("Running for 2 hours");
+// }else if(day === "saturday" || day === "sunday"){
+//   console.log("Just rest inside your home");
+// }else{
+//   console.log("Not a valid day");
+// }
+
+// const age = 23;
+
+// const drink = age >= 18 ? "I like to drink wine!" : "I like to drink water!";
+
+// console.log(drink);
