@@ -33,3 +33,30 @@ console.log(checkWinner(avgDolphins, avgKoalas));*/
 // console.log(bills);
 // console.log(tips);
 // console.log(total);
+
+const Mark = {
+  fullName: 'Mark Miller',
+  mass: 78,
+  height: 1.69,
+
+  calcBMI: function(){
+    this.BMI = this.mass / (this.height * this.height);
+    return this.BMI;
+  }
+}
+
+const John = {
+  fullName: 'John Smith',
+  mass: 92,
+  height: 1.95,
+  calcBMI: function(){
+    this.BMI = this.mass / (this.height * this.height);
+    return this.BMI;  
+  }
+}
+
+if(Mark.calcBMI() > John.calcBMI()){
+  console.log(`Mark's BMI(${Mark.calcBMI()}) is higher than John's(${John.calcBMI()})`)
+}else{
+  console.log(`John's BMI(${John.calcBMI()}) is higher than Mark's(${Mark.calcBMI()})`)  
+}

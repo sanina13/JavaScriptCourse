@@ -105,16 +105,50 @@
 
 //Objects
 
-const tiago = {
-  firstName: 'Tiago',
-  lastName: 'Sanina',
-  age: 2022 - 2001,
-  job: 'Programmer',
-  friends: ['Andre', 'Luís', 'João']
-}
-console.log(tiago.lastName);
-console.log(tiago['lastName'])
+// const tiago = {
+//   firstName: 'Tiago',
+//   lastName: 'Sanina',
+//   age: 2022 - 2001,
+//   job: 'Programmer',
+//   friends: ['Andre', 'Luís', 'João']
+// }
+// console.log(tiago.lastName);
+// console.log(tiago['lastName'])
 
-const nameKey = 'Name';
-console.log(tiago['first' + nameKey])
-console.log(tiago['last' + nameKey]);
+// const nameKey = 'Name';
+// console.log(tiago['first' + nameKey])
+// console.log(tiago['last' + nameKey]);
+
+// const tiago = {
+//   firstName: 'Tiago',
+//   lastName: 'Sanina',
+//   birthYear: 1991,
+//   job: 'Programmer',
+//   friends: ['Andre', 'Luís', 'João'],
+//   hasDriversLicense: false,
+
+//   // calcAge: function(birthYear){ // method
+//   //   return 2037 - birthYear;
+//   // }
+
+//   // calcAge: function(){
+//   //   return 2037 - this.birthYear;
+//   // }
+
+//   calcAge: function(){
+//     this.age = 2037 - this.birthYear;
+//     return this.age;
+//   },
+
+//   getSummary: function(){
+//     if(this.hasDriversLicense){
+//       return `${this.firstName} is a ${this.calcAge()}-year old ${this.job}, and he has a driver's license`
+//     }else{
+//       return `${this.firstName} is a ${this.age}-year old ${this.job}, and he dont have a driver's license`
+//     }
+//   }
+// };
+
+// console.log(tiago.getSummary());
+// //console.log(tiago['calcAge'](1991));
+
