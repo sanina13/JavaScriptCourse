@@ -32,6 +32,6 @@ if (markBmi > johnBmi) {
 // }
 
 
-// const bill = 430;
-// const trueValue = bill >= 50 && bill <= 300 ? console.log(`The bill was ${bill}, the tip was ${bill*15/100}, and the total value ${bill + bill*15/100}`) : console.log(`The bill was ${bill}, the tip was ${bill*20/100}, and the total value ${bill + (bill*20/100)}`);
+const bill = 430;
+const trueValue = bill >= 50 && bill <= 300 ? console.log(`The bill was ${bill}, the tip was ${bill*15/100}, and the total value ${bill + bill*15/100}`) : console.log(`The bill was ${bill}, the tip was ${bill*20/100}, and the total value ${bill + (bill*20/100)}`);
 
