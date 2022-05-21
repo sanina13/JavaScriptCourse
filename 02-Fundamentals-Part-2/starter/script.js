@@ -151,4 +151,83 @@
 
 // console.log(tiago.getSummary());
 // //console.log(tiago['calcAge'](1991));
+/*
+const tiago = [
+  'Tiago',
+  'Sanina',
+  2022 - 2001,
+  'Programmer',
+  ['Andre', 'Luís', 'João']
+];
+
+const types = [];
+
+for(let i = 0; i < tiago.length; i++){
+  console.log(tiago[i]);
+
+  //types[i] = typeof tiago[i];
+
+  types.push(typeof tiago[i]);
+}
+
+console.log(types);
+
+const years = [1991, 2007, 1969, 2020];
+const ages = [];
+
+for(let i = 0; i < years.length; i++){
+  ages.push(2037 - years[i]);
+}
+
+console.log(ages);
+
+// continue and break 
+console.log("==== ONLY STRINGS ====")
+for(let i = 0; i < tiago.length; i++){
+  if(typeof tiago[i] !== 'string') continue;
+  console.log(tiago[i], typeof tiago[i]);
+}
+
+console.log("==== BREAK WITH NUMBER====")
+for(let i = 0; i < tiago.length; i++){
+  if(typeof tiago[i] === 'number') break;
+  console.log(tiago[i], typeof tiago[i]);
+}*/
+/*
+const tiago = [
+  'Tiago',
+  'Sanina',
+  2022 - 2001,
+  'Programmer',
+  ['Andre', 'Luís', 'João']
+];
+*/
+/*for(let i = tiago.length - 1; i >= 0; i--){
+  console.log(tiago[i]);
+}*/
+/*
+for (let exercise = 1; exercise < 4; exercise++){
+  console.log(`-------- Strating exercise ${exercise}`);
+  for(let rep = 1; rep < 6; rep++){
+    console.log(`Exercise ${exercise}: Lifting weight repetition ${rep}`)
+  }
+}
+*/
+
+for(let rep = 1; rep <= 10; rep++){
+  console.log(`Lifting weight repetition ${rep}`);
+}
+
+let rap = 1;
+while(rap <= 10){
+  console.log(`Lifting weight repetition ${rap}`);
+  rap++;
+}
+
+let dice = (Math.random() * 6) + 1;
+
+while(dice !== 6){
+  console.log(`You rolled a ${dice}`)  
+}
+
 

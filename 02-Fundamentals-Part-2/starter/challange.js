@@ -33,7 +33,7 @@ console.log(checkWinner(avgDolphins, avgKoalas));*/
 // console.log(bills);
 // console.log(tips);
 // console.log(total);
-
+/*
 const Mark = {
   fullName: 'Mark Miller',
   mass: 78,
@@ -60,3 +60,4 @@ if(Mark.calcBMI() > John.calcBMI()){
 }else{
   console.log(`John's BMI(${John.calcBMI()}) is higher than Mark's(${Mark.calcBMI()})`)  
 }
+*/
