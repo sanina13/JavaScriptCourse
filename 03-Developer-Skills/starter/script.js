@@ -51,7 +51,7 @@ const calcTempAmplitudeNew = function (t1, t2) {
 };
 
 console.log(calcTempAmplitudeNew([3, 5, 1], [9, 0, 5]));*/
-
+/*
 const measureKelvin = function () {
   const measurment = {
     type: 'temp',
@@ -85,3 +85,17 @@ const calcTempAmplitudeBug = function (t1, t2) {
 };
 
 console.log(calcTempAmplitudeBug([3, 5, 1], [9, 4, 5]));
+*/
+
+const temp1 = [17, 21, 23];
+const temp2 = [12, 5, -5, 0, 4];
+
+const printForecast = function (arr) {
+  let strFinal = '';
+  for (let i = 0; i < arr.length; i++) {
+    strFinal += `... ${arr[i]}ºC in ${i + 1} days `;
+  }
+  return strFinal;
+};
+
+console.log(printForecast(temp1));
