@@ -237,6 +237,109 @@ const restaurant = {
     }
   },
 };
+//Maps iteration
+const question = new Map([
+  ['question', 'What is the best programming language in the world?'],
+  [1, 'C'],
+  [2, 'Java'],
+  [3, 'JavaScript'],
+  ['correct', 3],
+  [true, 'Correct!'],
+  [false, 'Try again!'],
+]);
+console.log(question);
+//Convert object to map
+console.log(Object.entries(openingHours));
+const hoursMap = new Map(Object.entries(openingHours));
+console.log(hoursMap);
+
+//Iteration map Quizz app
+console.log(question.get('question'));
+
+for (const [key, value] of question) {
+  if (typeof key === 'number') console.log(`Answer ${key}: ${value}`);
+}
+//const answer = Number(prompt(question.get('question')));
+const answer = 3;
+
+console.log(question.get(question.get('correct') === answer));
+/*
+//My solution
+if (answer === 2 || answer === 1) {
+  console.log(question.get(false));
+} else {
+  console.log(question.get(true));
+}
+*/
+
+//Convert map to array
+
+console.log([...question]);
+//console.log([...question.entries()]);
+console.log([...question.keys()]);
+console.log([...question.values()]);
+
+/*
+//Maps usamos para mapear valores para chaves
+const rest = new Map(); // Maneira mais facil de criar um mapa é deixar o mesmo vazio
+rest.set('name', 'Classico Italiano');
+rest.set(1, 'Firenze, Italy');
+console.log(rest.set(2, 'Lisbon, Portugal'));
+
+rest
+  .set('Categories', ['Italian', 'Pizzeria', 'Vegetarian', 'Organic'])
+  .set('Open', 11)
+  .set('Close', 23)
+  .set(true, 'We are open :D')
+  .set(false, 'We are closed :(');
+console.log(rest.get('name'));
+console.log(rest.get(true));
+
+const time = 21;
+console.log(rest.get(time > rest.get('Open') && time < rest.get('Close')));
+
+console.log(rest.has('Categories'));
+rest.delete(2);
+//rest.clear();
+const arr = [1, 2];
+rest.set(arr, 'Test');
+rest.set(document.querySelector('h1'), 'Heading');
+console.log(rest);
+console.log(rest.size);
+
+console.log(rest.get(arr));
+*/
+/*
+//Sets coleção de valores unicos evita haver valores duplicados
+const orderSet = new Set([
+  'Pasta',
+  'Pizza',
+  'Pizza',
+  'Risotto',
+  'Pasta',
+  'Pizza',
+]);
+console.log(orderSet);
+console.log(new Set('Tiago'));
+console.log(orderSet.size); // do the same thing that length in arrays
+console.log(orderSet.has('Pizza')); // do the same thing that includes in arrays
+console.log(orderSet.has('Bread'));
+orderSet.add('Garlic Bread');
+orderSet.add('Garlic Bread');
+orderSet.delete('Risotto');
+//orderSet.clear();
+console.log(orderSet);
+
+for (const order of orderSet) console.log(order);
+
+//Example
+const staff = ['Waiter', 'Chef', 'Waiter', 'Manager', 'Chef', 'Waiter'];
+const posStaff = [...new Set(staff)]; // o spread funciona igual como no array
+console.log(posStaff);
+console.log(
+  new Set(['Waiter', 'Chef', 'Waiter', 'Manager', 'Chef', 'Waiter']).size
+);
+*/
 
 /*
 //Looping Objects
